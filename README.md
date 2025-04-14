@@ -20,6 +20,10 @@ A scalable, secure, and RESTful API for the E-Commerce 2025 platform — handlin
 - Stripe for Payments
 - Zod / Joi for Validation
 - Cloudinary / S3 for Image Uploads
+- Node-Cache
+- Multer
+- Morgan
+- CORS
 
 ## 📈 Endpoints Example
 | Method | Endpoint               | Description |
