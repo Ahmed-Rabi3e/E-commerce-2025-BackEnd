@@ -5,13 +5,20 @@
 A scalable, secure, and RESTful API for the E-Commerce 2025 platform — handling product, user, order, and payment operations with JWT authentication and Stripe integration.
 
 ## ✨ Features
-- User Authentication (JWT)
+- User Authentication & Authorization (JWT)
 - Order, Product, and User CRUD
 - Secure Payment Processing with Stripe
 - Coupon and Discount Code Generator
 - Analytics Data Endpoints for Dashboard Charts
 - RESTful API Design
 - Global Error Handling & Validation
+- Admin APIs:
+  - Orders and transaction management
+  - Product inventory management
+  - Coupon management
+  - User management (CRUD)
+  - Dashboard analytics (revenue, transactions, gender ratios)
+
 
 ## 📦 Tech Stack
 - Node.js + Express.js
@@ -20,8 +27,8 @@ A scalable, secure, and RESTful API for the E-Commerce 2025 platform — handlin
 - Stripe for Payments
 - Zod / Joi for Validation
 - Cloudinary / S3 for Image Uploads
-- Node-Cache
 - Multer
+- Node-Cache
 - Morgan
 - CORS
 
@@ -32,6 +39,16 @@ A scalable, secure, and RESTful API for the E-Commerce 2025 platform — handlin
 | POST    | /api/products            | Create product |
 | POST    | /api/auth/login          | User login |
 | POST    | /api/orders/checkout     | Process checkout |
+
+
+
+**Environment Variables:**
+
+```
+PORT=4000
+MONGO_URI=your_mongo_uri
+STRIPE_KEY=your_stripe_secret_key
+```
 
 ## 📦 Installation
 
