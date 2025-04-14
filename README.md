@@ -35,6 +35,8 @@ A scalable, secure, and RESTful API for the E-Commerce 2025 platform — handlin
 ## 📈 Endpoints Example
 | Method | Endpoint               | Description |
 |:--------|:------------------------|:--------------|
+| GET     | /api/v1/user             | Fetch user |
+| GET     | /api/users               | Fetch users |
 | GET     | /api/products            | Fetch products |
 | POST    | /api/products            | Create product |
 | POST    | /api/auth/login          | User login |
